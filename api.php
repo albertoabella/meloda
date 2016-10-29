@@ -11,7 +11,7 @@ $input = json_decode(file_get_contents('php://input'),true);
 print_r ($input);
  
 // connect to the mysql database
-$link = mysqli_connect('localhost', 'calendb0_api', 'worldman', 'calendb0_meloda');
+$link = mysqli_connect('localhost', 'calendb0_api', 'meloda410', 'calendb0_meloda');
 mysqli_set_charset($link,'utf8');
  
 // retrieve the table and key from the path
